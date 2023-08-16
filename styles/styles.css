@@ -59,6 +59,11 @@ main .menuVinos .menuVinos-ficha div {
 main .menuVinos .menuVinos-ficha div h4 {
   padding: 0.5rem;
 }
+main .menuVinos .menuVinos-catalogo .catalogo-productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
 main .vinoPremiado {
   margin: 1rem 0;
 }

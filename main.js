@@ -26,7 +26,7 @@ class Producto {
 
 const prod1 = new Producto ( "Santa Julia Chenin Dulce Natural", "vino Blanco", 1600 , 1000 );
 const prod2 = new Producto ( "Familia Gascón Roble Malbec" , "Vino Tinto" , 2145 , 750 );
-const prod3 = new Producto ( "Aimé Rosé", "Vino Rose", 1408 , 1000 );
+const prod3 = new Producto ( "Aimé Rosé", "Vino Rose", 1408 , 9000 );
 
 
 //Calculo de compra
