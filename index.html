@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sofia - Tienda de Vinos</title>
-    <!--falta agregar 
-        keywords
-        favicon
-        -->
+    <meta name="description" content="Empresa familiar especializada en la produccion y venta de vinos">
+    <meta name="keywords" content=" Venta de vinos, Formas de Envio, compra por Mayor, compra por Menor">
+    <link rel="shortcut icon" href="/img/Logo-portada/favicon_io.zip" type="image/x-icon">
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/7f5f185f23.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
@@ -34,11 +35,13 @@
             <h1>Sofia</h1>
             <p>El vino se ha consolidado a partir de hábitos sociales propios de la cultura y la identidad argentinas arraigadas en el ámbito familiar y de la amistad, donde la moderación y el control social se aúnan con el disfrute. El 24 de noviembre del 2010 se firmó el Decreto 1800 que lo declaró bebida nacional de la Argentina, razón por la cual esa fecha se celebra como el Día del vino argentino. En 2013 se sancionó la Ley Nº 26.870 -Vino Argentino Bebida Nacional, con el propósito de difundir la tradición y las características culturales implicadas en su producción, elaboración y consumo.</p>
         </section>
-        <section class="vinoPremiado">
-            <img src="./img/Logo-portada/norton.jpg" alt="Img Vino tinto norton">
-        </section>
+        <article class="article">
+            <img src="./img/Logo-portada/uva-racimo-vinedo-768x513.webp" alt="arbol con uvas">
+            <img src="./img/Logo-portada/botellas-en-estante.jpeg" alt="vinoteca">
+            <img src="./img/Logo-portada/copa-de-vino.jpg" alt="vino y botella" style="height: 100%;">
+        </article>
         <div class="menuVinos">
-            <section>
+            <section class="menuVinos-ficha">
                 <h3>Filtros</h3>
                 <div>
                     <h4>Tipos</h4>
@@ -59,7 +62,7 @@
                         <li>Catena Zapata</li>
                 </div>
             </section>
-            <section class="catalogo">
+            <section class="menuVinos-catalogo">
                 <div class="catalogo-titulo">
                     <h2>Catalogo de Vinos</h2>
                 </div>
@@ -67,34 +70,15 @@
                     <img src="" alt="">
                     <img src="" alt="">
                     <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    
                 </div>
             </section>
-
         </div>
+        <section class="vinoPremiado">
+            <img src="./img/Logo-portada/norton.jpg" alt="Img Vino tinto norton">
+        </section>
     </main>
-    <article>
-        <img src="" alt="img info de vinos">
-        <img src="" alt="img info de premios">
-        <img src="" alt="Img info de algo">
-    </article>
+    
     <footer>
         <div>
             <section>
@@ -131,10 +115,10 @@
             </section>
             <section>
                 <h2>Seguinos</h2>
-                <ul>
-                    <li>Instagram</li>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
+                <ul class="iconos">
+                    <i class="fa-brands fa-instagram" style="color: #511f1f;"></i>
+                    <i class="fa-brands fa-facebook-f" style="color: #511f1f;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #511f1f;"></i>
                 </ul>
             </section>
         </div>
@@ -142,9 +126,7 @@
             <p>© 2015-2023 vinoSofia. Todos los derechos reservados. Beber con moderación. Prohibida su venta a menores de 18 años.</p>
         </section>
     </footer>
-
-
-
+    
     <script src="main.js"></script>
 </body>
 </html>

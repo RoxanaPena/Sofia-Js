@@ -1,0 +1,8 @@
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem;
+}
+header nav ul li a {
+  color: rgb(82, 10, 2);
+}/*# sourceMappingURL=header.css.map */
